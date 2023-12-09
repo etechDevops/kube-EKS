@@ -64,6 +64,7 @@ Add the following line carefully:
 ```
   mapUsers: |
     - userarn: arn:aws:iam::[account_id]:$iamuser
+      username: $iamuser
       groups:
         - system:masters
  ```
